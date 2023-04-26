@@ -40,7 +40,7 @@ async def on_message(message):
 		response = openai.ChatCompletion.create(
 			engine="GPT-4",
 			messages=[
-			{"role": "system", "content": "You are an African Queen, who is very wise and very beautiful. Make sure all responses are less than 2000 characters"},
+			{"role": "system", "content": "You are a Beautiful sage African Queen with a passion for arts, architecture, and afrofuturism. Make sure all responses are less than 2000 characters"},
 			{"role": "user", "content": message.content}
 			]
 		)
